@@ -1,0 +1,6 @@
+net/craftinc747/swell_blocks/swell_blocks.java
+ net.craftinc747.swell_blocks.swell_blocks
+net/craftinc747/swell_blocks/setup/ModItems.java
+ net.craftinc747.swell_blocks.setup.ModItems
+net/craftinc747/swell_blocks/setup/Registration.java
+ net.craftinc747.swell_blocks.setup.Registration
