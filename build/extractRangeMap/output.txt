@@ -1,0 +1,239 @@
+start 1 net/craftinc747/swell_blocks/setup/ModBlocks.java 90e2b141bb2b012b2333136f328de5e2
+package 8 34 net.craftinc747.swell_blocks.setup
+classdef 357 704 net/craftinc747/swell_blocks/setup/ModBlocks
+# Start CLASS net/craftinc747/swell_blocks/setup/ModBlocks
+  class 370 9 ModBlocks false net/craftinc747/swell_blocks/setup/ModBlocks
+  class 406 14 RegistryObject false net/minecraftforge/fml/RegistryObject
+  class 421 5 Block false net/minecraft/block/Block
+  field 428 10 SILVER_ORE net/craftinc747/swell_blocks/setup/ModBlocks
+  methoddef 542 25 register ()V
+  # Start METHOD register()V
+    method 554 8 register net/craftinc747/swell_blocks/setup/ModBlocks register ()V
+  # End METHOD
+  methoddef 573 164 registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+  # Start METHOD registerNoItem(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    class 599 5 Block false net/minecraft/block/Block
+    class 605 14 RegistryObject false net/minecraftforge/fml/RegistryObject
+    method 623 14 registerNoItem net/craftinc747/swell_blocks/setup/ModBlocks registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    class 638 6 String false java/lang/String
+    parameter 645 4 name net/craftinc747/swell_blocks/setup/ModBlocks registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 0
+    class 651 8 Supplier false java/util/function/Supplier
+    parameter 663 5 block net/craftinc747/swell_blocks/setup/ModBlocks registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 1
+    class 688 12 Registration false net/craftinc747/swell_blocks/setup/Registration
+    field 701 6 BLOCKS net/craftinc747/swell_blocks/setup/Registration
+    method 708 8 register net/minecraftforge/registries/DeferredRegister register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    parameter 717 4 name net/craftinc747/swell_blocks/setup/ModBlocks registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 0
+    parameter 723 5 block net/craftinc747/swell_blocks/setup/ModBlocks registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 1
+  # End METHOD
+  methoddef 743 315 register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+  # Start METHOD register(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    class 769 5 Block false net/minecraft/block/Block
+    class 776 14 RegistryObject false net/minecraftforge/fml/RegistryObject
+    method 794 8 register net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    class 803 6 String false java/lang/String
+    parameter 810 4 name net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 0
+    class 816 8 Supplier false java/util/function/Supplier
+    parameter 828 5 block net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 1
+    class 846 14 RegistryObject false net/minecraftforge/fml/RegistryObject
+    local_variable 864 3 ret net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 2 Lnet/minecraftforge/fml/RegistryObject;
+    method 870 14 registerNoItem net/craftinc747/swell_blocks/setup/ModBlocks registerNoItem (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    parameter 885 4 name net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 0
+    parameter 891 5 block net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 1
+    class 907 12 Registration false net/craftinc747/swell_blocks/setup/Registration
+    field 920 5 ITEMS net/craftinc747/swell_blocks/setup/Registration
+    method 926 8 register net/minecraftforge/registries/DeferredRegister register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+    parameter 935 4 name net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 0
+    methoddef 941 88 lambda[get] ()Lnet/minecraft/item/BlockItem;
+    # Start METHOD lambda[get]()Lnet/minecraft/item/BlockItem;
+      class 951 9 BlockItem false net/minecraft/item/BlockItem
+      local_variable 961 3 ret net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 2 Lnet/minecraftforge/fml/RegistryObject;
+      method 965 3 get java/util/function/Supplier get ()Ljava/lang/Object;
+      class 976 4 Item false net/minecraft/item/Item
+      class 981 10 Properties true net/minecraft/item/Item$Properties
+      method 994 3 tab net/minecraft/item/Item$Properties tab (Lnet/minecraft/item/ItemGroup;)Lnet/minecraft/item/Item$Properties;
+      class 998 9 ItemGroup false net/minecraft/item/ItemGroup
+      field 1008 19 TAB_BUILDING_BLOCKS net/minecraft/item/ItemGroup
+    # End METHOD
+    local_variable 1048 3 ret net/craftinc747/swell_blocks/setup/ModBlocks register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject; 2 Lnet/minecraftforge/fml/RegistryObject;
+  # End METHOD
+# End CLASS
+end
+start 1 net/craftinc747/swell_blocks/setup/ModItems.java 42331542b948504045eb17f5a3ac5c8f
+package 8 34 net.craftinc747.swell_blocks.setup
+classdef 216 250 net/craftinc747/swell_blocks/setup/ModItems
+# Start CLASS net/craftinc747/swell_blocks/setup/ModItems
+  class 229 8 ModItems false net/craftinc747/swell_blocks/setup/ModItems
+  class 265 14 RegistryObject false net/minecraftforge/fml/RegistryObject
+  class 280 4 Item false net/minecraft/item/Item
+  field 286 12 SILVER_INGOT net/craftinc747/swell_blocks/setup/ModItems
+  class 301 12 Registration false net/craftinc747/swell_blocks/setup/Registration
+  field 314 5 ITEMS net/craftinc747/swell_blocks/setup/Registration
+  method 320 8 register net/minecraftforge/registries/DeferredRegister register (Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/minecraftforge/fml/RegistryObject;
+  methoddef 345 78 lambda[get] ()Lnet/minecraft/item/Item;
+  # Start METHOD lambda[get]()Lnet/minecraft/item/Item;
+    class 367 4 Item false net/minecraft/item/Item
+    class 376 4 Item false net/minecraft/item/Item
+    class 381 10 Properties true net/minecraft/item/Item$Properties
+    method 394 3 tab net/minecraft/item/Item$Properties tab (Lnet/minecraft/item/ItemGroup;)Lnet/minecraft/item/Item$Properties;
+    class 398 9 ItemGroup false net/minecraft/item/ItemGroup
+    field 408 13 TAB_MATERIALS net/minecraft/item/ItemGroup
+  # End METHOD
+  methoddef 431 32 register ()V
+  # Start METHOD register()V
+    method 450 8 register net/craftinc747/swell_blocks/setup/ModItems register ()V
+  # End METHOD
+# End CLASS
+end
+start 1 net/craftinc747/swell_blocks/setup/Registration.java 1f2372cdc2d0f53792f7ee39da0fb03e
+package 8 34 net.craftinc747.swell_blocks.setup
+classdef 388 512 net/craftinc747/swell_blocks/setup/Registration
+# Start CLASS net/craftinc747/swell_blocks/setup/Registration
+  class 401 12 Registration false net/craftinc747/swell_blocks/setup/Registration
+  class 441 16 DeferredRegister false net/minecraftforge/registries/DeferredRegister
+  class 458 5 Block false net/minecraft/block/Block
+  field 465 6 BLOCKS net/craftinc747/swell_blocks/setup/Registration
+  class 474 16 DeferredRegister false net/minecraftforge/registries/DeferredRegister
+  method 491 6 create net/minecraftforge/registries/DeferredRegister create (Lnet/minecraftforge/registries/IForgeRegistry;Ljava/lang/String;)Lnet/minecraftforge/registries/DeferredRegister;
+  class 498 15 ForgeRegistries false net/minecraftforge/registries/ForgeRegistries
+  field 514 6 BLOCKS net/minecraftforge/registries/ForgeRegistries
+  class 522 12 swell_blocks false net/craftinc747/swell_blocks/swell_blocks
+  field 535 6 MOD_ID net/craftinc747/swell_blocks/swell_blocks
+  class 568 16 DeferredRegister false net/minecraftforge/registries/DeferredRegister
+  class 585 4 Item false net/minecraft/item/Item
+  field 591 5 ITEMS net/craftinc747/swell_blocks/setup/Registration
+  class 599 16 DeferredRegister false net/minecraftforge/registries/DeferredRegister
+  method 616 6 create net/minecraftforge/registries/DeferredRegister create (Lnet/minecraftforge/registries/IForgeRegistry;Ljava/lang/String;)Lnet/minecraftforge/registries/DeferredRegister;
+  class 623 15 ForgeRegistries false net/minecraftforge/registries/ForgeRegistries
+  field 639 5 ITEMS net/minecraftforge/registries/ForgeRegistries
+  class 646 12 swell_blocks false net/craftinc747/swell_blocks/swell_blocks
+  field 659 6 MOD_ID net/craftinc747/swell_blocks/swell_blocks
+  methoddef 674 223 register ()V
+  # Start METHOD register()V
+    method 693 8 register net/craftinc747/swell_blocks/setup/Registration register ()V
+    class 714 9 IEventBus false net/minecraftforge/eventbus/api/IEventBus
+    local_variable 724 11 modEventBus net/craftinc747/swell_blocks/setup/Registration register ()V 0 Lnet/minecraftforge/eventbus/api/IEventBus;
+    class 738 24 FMLJavaModLoadingContext false net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext
+    method 763 3 get net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext get ()Lnet/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext;
+    method 769 14 getModEventBus net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext getModEventBus ()Lnet/minecraftforge/eventbus/api/IEventBus;
+    field 795 6 BLOCKS net/craftinc747/swell_blocks/setup/Registration
+    method 802 8 register net/minecraftforge/registries/DeferredRegister register (Lnet/minecraftforge/eventbus/api/IEventBus;)V
+    local_variable 811 11 modEventBus net/craftinc747/swell_blocks/setup/Registration register ()V 0 Lnet/minecraftforge/eventbus/api/IEventBus;
+    field 833 5 ITEMS net/craftinc747/swell_blocks/setup/Registration
+    method 839 8 register net/minecraftforge/registries/DeferredRegister register (Lnet/minecraftforge/eventbus/api/IEventBus;)V
+    local_variable 848 11 modEventBus net/craftinc747/swell_blocks/setup/Registration register ()V 0 Lnet/minecraftforge/eventbus/api/IEventBus;
+    class 871 8 ModItems false net/craftinc747/swell_blocks/setup/ModItems
+    method 880 8 register net/craftinc747/swell_blocks/setup/ModItems register ()V
+  # End METHOD
+# End CLASS
+end
+start 1 net/craftinc747/swell_blocks/swell_blocks.java 2e1b62e311857a12668f0aa335232012
+package 8 28 net.craftinc747.swell_blocks
+classdef 1245 2276 net/craftinc747/swell_blocks/swell_blocks
+# Start CLASS net/craftinc747/swell_blocks/swell_blocks
+  class 1246 3 Mod false net/minecraftforge/fml/common/Mod
+  class 1279 12 swell_blocks false net/craftinc747/swell_blocks/swell_blocks
+  class 1319 6 String false java/lang/String
+  field 1326 6 MOD_ID net/craftinc747/swell_blocks/swell_blocks
+  class 1416 6 Logger false org/apache/logging/log4j/Logger
+  field 1423 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+  class 1432 10 LogManager false org/apache/logging/log4j/LogManager
+  method 1443 9 getLogger org/apache/logging/log4j/LogManager getLogger ()Lorg/apache/logging/log4j/Logger;
+  methoddef 1461 769 <init> ()V
+  # Start METHOD <init>()V
+    method 1468 12 swell_blocks net/craftinc747/swell_blocks/swell_blocks <init> ()V
+    class 1493 12 Registration false net/craftinc747/swell_blocks/setup/Registration
+    method 1506 8 register net/craftinc747/swell_blocks/setup/Registration register ()V
+    class 1579 24 FMLJavaModLoadingContext false net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext
+    method 1604 3 get net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext get ()Lnet/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext;
+    method 1610 14 getModEventBus net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext getModEventBus ()Lnet/minecraftforge/eventbus/api/IEventBus;
+    method 1627 11 addListener net/minecraftforge/eventbus/api/IEventBus addListener (Ljava/util/function/Consumer;)V
+    method 1645 5 setup net/craftinc747/swell_blocks/swell_blocks setup (Lnet/minecraftforge/fml/event/lifecycle/FMLCommonSetupEvent;)V
+    class 1718 24 FMLJavaModLoadingContext false net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext
+    method 1743 3 get net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext get ()Lnet/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext;
+    method 1749 14 getModEventBus net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext getModEventBus ()Lnet/minecraftforge/eventbus/api/IEventBus;
+    method 1766 11 addListener net/minecraftforge/eventbus/api/IEventBus addListener (Ljava/util/function/Consumer;)V
+    method 1784 10 enqueueIMC net/craftinc747/swell_blocks/swell_blocks enqueueIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModEnqueueEvent;)V
+    class 1862 24 FMLJavaModLoadingContext false net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext
+    method 1887 3 get net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext get ()Lnet/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext;
+    method 1893 14 getModEventBus net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext getModEventBus ()Lnet/minecraftforge/eventbus/api/IEventBus;
+    method 1910 11 addListener net/minecraftforge/eventbus/api/IEventBus addListener (Ljava/util/function/Consumer;)V
+    method 1928 10 processIMC net/craftinc747/swell_blocks/swell_blocks processIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModProcessEvent;)V
+    class 2009 24 FMLJavaModLoadingContext false net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext
+    method 2034 3 get net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext get ()Lnet/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext;
+    method 2040 14 getModEventBus net/minecraftforge/fml/javafmlmod/FMLJavaModLoadingContext getModEventBus ()Lnet/minecraftforge/eventbus/api/IEventBus;
+    method 2057 11 addListener net/minecraftforge/eventbus/api/IEventBus addListener (Ljava/util/function/Consumer;)V
+    method 2075 13 doClientStuff net/craftinc747/swell_blocks/swell_blocks doClientStuff (Lnet/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent;)V
+    class 2184 14 MinecraftForge false net/minecraftforge/common/MinecraftForge
+    field 2199 9 EVENT_BUS net/minecraftforge/common/MinecraftForge
+    method 2209 8 register net/minecraftforge/eventbus/api/IEventBus register (Ljava/lang/Object;)V
+  # End METHOD
+  methoddef 2236 207 setup (Lnet/minecraftforge/fml/event/lifecycle/FMLCommonSetupEvent;)V
+  # Start METHOD setup(Lnet/minecraftforge/fml/event/lifecycle/FMLCommonSetupEvent;)V
+    method 2249 5 setup net/craftinc747/swell_blocks/swell_blocks setup (Lnet/minecraftforge/fml/event/lifecycle/FMLCommonSetupEvent;)V
+    class 2261 19 FMLCommonSetupEvent false net/minecraftforge/fml/event/lifecycle/FMLCommonSetupEvent
+    parameter 2281 5 event net/craftinc747/swell_blocks/swell_blocks setup (Lnet/minecraftforge/fml/event/lifecycle/FMLCommonSetupEvent;)V 0
+    field 2331 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+    method 2338 4 info org/apache/logging/log4j/Logger info (Ljava/lang/String;)V
+    field 2374 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+    method 2381 4 info org/apache/logging/log4j/Logger info (Ljava/lang/String;Ljava/lang/Object;)V
+    class 2406 6 Blocks false net/minecraft/block/Blocks
+    field 2413 4 DIRT net/minecraft/block/Blocks
+    method 2418 15 getRegistryName net/minecraftforge/registries/IForgeRegistryEntry getRegistryName ()Lnet/minecraft/util/ResourceLocation;
+  # End METHOD
+  methoddef 2449 216 doClientStuff (Lnet/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent;)V
+  # Start METHOD doClientStuff(Lnet/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent;)V
+    method 2462 13 doClientStuff net/craftinc747/swell_blocks/swell_blocks doClientStuff (Lnet/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent;)V
+    class 2482 19 FMLClientSetupEvent false net/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent
+    parameter 2502 5 event net/craftinc747/swell_blocks/swell_blocks doClientStuff (Lnet/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent;)V 0
+    field 2579 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+    method 2586 4 info org/apache/logging/log4j/Logger info (Ljava/lang/String;Ljava/lang/Object;)V
+    parameter 2615 5 event net/craftinc747/swell_blocks/swell_blocks doClientStuff (Lnet/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent;)V 0
+    method 2621 20 getMinecraftSupplier net/minecraftforge/fml/event/lifecycle/FMLClientSetupEvent getMinecraftSupplier ()Ljava/util/function/Supplier;
+    method 2644 3 get java/util/function/Supplier get ()Ljava/lang/Object;
+    field 2650 7 options net/minecraft/client/Minecraft
+  # End METHOD
+  methoddef 2671 262 enqueueIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModEnqueueEvent;)V
+  # Start METHOD enqueueIMC(Lnet/minecraftforge/fml/event/lifecycle/InterModEnqueueEvent;)V
+    method 2684 10 enqueueIMC net/craftinc747/swell_blocks/swell_blocks enqueueIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModEnqueueEvent;)V
+    class 2701 20 InterModEnqueueEvent false net/minecraftforge/fml/event/lifecycle/InterModEnqueueEvent
+    parameter 2722 5 event net/craftinc747/swell_blocks/swell_blocks enqueueIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModEnqueueEvent;)V 0
+    class 2803 13 InterModComms false net/minecraftforge/fml/InterModComms
+    method 2817 6 sendTo net/minecraftforge/fml/InterModComms sendTo (Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Supplier;)Z
+    methoddef 2854 71 lambda[get] ()Ljava/lang/Object;
+    # Start METHOD lambda[get]()Ljava/lang/Object;
+      field 2862 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+      method 2869 4 info org/apache/logging/log4j/Logger info (Ljava/lang/String;)V
+    # End METHOD
+  # End METHOD
+  methoddef 2939 308 processIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModProcessEvent;)V
+  # Start METHOD processIMC(Lnet/minecraftforge/fml/event/lifecycle/InterModProcessEvent;)V
+    method 2952 10 processIMC net/craftinc747/swell_blocks/swell_blocks processIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModProcessEvent;)V
+    class 2969 20 InterModProcessEvent false net/minecraftforge/fml/event/lifecycle/InterModProcessEvent
+    parameter 2990 5 event net/craftinc747/swell_blocks/swell_blocks processIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModProcessEvent;)V 0
+    field 3093 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+    method 3100 4 info org/apache/logging/log4j/Logger info (Ljava/lang/String;Ljava/lang/Object;)V
+    parameter 3119 5 event net/craftinc747/swell_blocks/swell_blocks processIMC (Lnet/minecraftforge/fml/event/lifecycle/InterModProcessEvent;)V 0
+    method 3125 12 getIMCStream net/minecraftforge/fml/event/lifecycle/ModLifecycleEvent getIMCStream ()Ljava/util/stream/Stream;
+    method 3157 3 map java/util/stream/Stream map (Ljava/util/function/Function;)Ljava/util/stream/Stream;
+    parameter 3161 1 m net/craftinc747/swell_blocks/swell_blocks lambda$5 (Lnet/minecraftforge/fml/InterModComms$IMCMessage;)Ljava/lang/Object; 0
+    methoddef 3161 31 lambda$5 (Lnet/minecraftforge/fml/InterModComms$IMCMessage;)Ljava/lang/Object;
+    # Start METHOD lambda$5(Lnet/minecraftforge/fml/InterModComms$IMCMessage;)Ljava/lang/Object;
+      parameter 3164 1 m net/craftinc747/swell_blocks/swell_blocks lambda$5 (Lnet/minecraftforge/fml/InterModComms$IMCMessage;)Ljava/lang/Object; 0
+      method 3166 18 getMessageSupplier net/minecraftforge/fml/InterModComms$IMCMessage getMessageSupplier ()Ljava/util/function/Supplier;
+      method 3187 3 get java/util/function/Supplier get ()Ljava/lang/Object;
+    # End METHOD
+    method 3211 7 collect java/util/stream/Stream collect (Ljava/util/stream/Collector;)Ljava/lang/Object;
+    class 3219 10 Collectors false java/util/stream/Collectors
+    method 3230 6 toList java/util/stream/Collectors toList ()Ljava/util/stream/Collector;
+  # End METHOD
+  methoddef 3333 184 onServerStarting (Lnet/minecraftforge/fml/event/server/FMLServerStartingEvent;)V
+  # Start METHOD onServerStarting(Lnet/minecraftforge/fml/event/server/FMLServerStartingEvent;)V
+    class 3334 14 SubscribeEvent false net/minecraftforge/eventbus/api/SubscribeEvent
+    method 3365 16 onServerStarting net/craftinc747/swell_blocks/swell_blocks onServerStarting (Lnet/minecraftforge/fml/event/server/FMLServerStartingEvent;)V
+    class 3382 22 FMLServerStartingEvent false net/minecraftforge/fml/event/server/FMLServerStartingEvent
+    parameter 3405 5 event net/craftinc747/swell_blocks/swell_blocks onServerStarting (Lnet/minecraftforge/fml/event/server/FMLServerStartingEvent;)V 0
+    field 3469 6 LOGGER net/craftinc747/swell_blocks/swell_blocks
+    method 3476 4 info org/apache/logging/log4j/Logger info (Ljava/lang/String;)V
+  # End METHOD
+# End CLASS
+end

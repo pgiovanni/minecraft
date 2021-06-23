@@ -1,0 +1,32 @@
+Args: "--apply", "--input", "/home/paul/Desktop/Mary and Pauls World/swell_blocks/src/main/java", "--range", "/home/paul/Desktop/Mary and Pauls World/swell_blocks/build/extractRangeMap/output.txt", "--srg", "/home/paul/Desktop/Mary and Pauls World/swell_blocks/build/createMcpToSrg/output.tsrg", "--output", "/home/paul/Desktop/Mary and Pauls World/swell_blocks/build/applyRangeMap/output.zip", "--keepImports", "true"
+Classpath: /home/paul/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/Srg2Source/7.0.16/Srg2Source-7.0.16-fatjar.jar
+WorkDir: /home/paul/Desktop/Mary and Pauls World/swell_blocks/build/applyRangeMap
+Main: net.minecraftforge.srg2source.ConsoleTool
+====================================
+Range:   /home/paul/Desktop/Mary and Pauls World/swell_blocks/build/extractRangeMap/output.txt
+Output:  /home/paul/Desktop/Mary and Pauls World/swell_blocks/build/applyRangeMap/output.zip
+Imports: true
+Sort:    false
+Lambdas: false
+Locals:  false
+Map:     /home/paul/Desktop/Mary and Pauls World/swell_blocks/build/createMcpToSrg/output.tsrg
+Input:   /home/paul/Desktop/Mary and Pauls World/swell_blocks/src/main/java
+Processing 4 files
+Start Processing: net/craftinc747/swell_blocks/setup/ModBlocks.java
+Rename MethodReference[994:3, "tab", Owner: net/minecraft/item/Item$Properties, Name: tab, Descriptor: (Lnet/minecraft/item/ItemGroup;)Lnet/minecraft/item/Item$Properties;] Shift[0] tab -> func_200916_a
+Rename FieldReference[1008:19, "TAB_BUILDING_BLOCKS", Owner: net/minecraft/item/ItemGroup] Shift[10] TAB_BUILDING_BLOCKS -> field_78030_b
+End  Processing: net/craftinc747/swell_blocks/setup/ModBlocks.java
+
+Start Processing: net/craftinc747/swell_blocks/setup/ModItems.java
+Rename MethodReference[394:3, "tab", Owner: net/minecraft/item/Item$Properties, Name: tab, Descriptor: (Lnet/minecraft/item/ItemGroup;)Lnet/minecraft/item/Item$Properties;] Shift[0] tab -> func_200916_a
+Rename FieldReference[408:13, "TAB_MATERIALS", Owner: net/minecraft/item/ItemGroup] Shift[10] TAB_MATERIALS -> field_78035_l
+End  Processing: net/craftinc747/swell_blocks/setup/ModItems.java
+
+Start Processing: net/craftinc747/swell_blocks/setup/Registration.java
+End  Processing: net/craftinc747/swell_blocks/setup/Registration.java
+
+Start Processing: net/craftinc747/swell_blocks/swell_blocks.java
+Rename FieldReference[2413:4, "DIRT", Owner: net/minecraft/block/Blocks] Shift[0] DIRT -> field_150346_d
+Rename FieldReference[2650:7, "options", Owner: net/minecraft/client/Minecraft] Shift[10] options -> field_71474_y
+End  Processing: net/craftinc747/swell_blocks/swell_blocks.java
+
